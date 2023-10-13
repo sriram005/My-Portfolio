@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="css/bootstrap-icons-1.11.1/bootstrap-icons.css"
+    />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img
+          src="img/letter-s.png"
+          width="40"
+          height="40"
+          class="d-inline-block ml-5 align-top"
+          alt="logo"
+        />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#home">Home</a>
+          <a class="nav-item nav-link" href="#about">About me</a>
+          <a class="nav-item nav-link" href="#skills">Skills</a>
+          <a class="nav-item nav-link" href="#project">Projects</a>
+          <a class="nav-item nav-link" href="#contact">Contact me</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home Layout -->
+    <div class="main">
+      <div class="container-fluid home" id="home">
+        <div class="typing">
+          <h4>Hey Everyone,</h4>
+          <h1>I'am Sriramakrishnan</h1>
+          <div class="icons">
+            <a href="https://github.com/sriram005" style="color: black"
+              ><i class="bi bi-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/sriramakrishnan-s/"
+              style="color: black"
+              ><i class="bi bi-linkedin"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/sriram_srk_/"
+              style="color: black"
+              ><i class="bi bi-instagram"></i
+            ></a>
+            <a
+              href="https://www.facebook.com/sriramakrishnan.sriramakrishnan.16/"
+              style="color: black"
+              ><i class="bi bi-facebook"></i
+            ></a>
+            <a href="https://twitter.com/sriram_srk_" style="color: black"
+              ><i class="bi bi-twitter-x"></i
+            ></a>
+          </div>
+          <a href="/asset/resume.pdf" download="Resume">
+            <button class="btn btn-primary">
+              <i class="bi bi-download"></i> | Download my CV
+            </button>
+          </a>
+        </div>
+        <img class="profile" src="img/profile-sq.png" alt="my-pic" />
+      </div>
+
+      <!-- About Layout-->
+      <div class="container-fluid about" id="about">
+        <div class="line">
+          <hr width="50%" />
+          <p>About</p>
+          <hr width="50%" />
+        </div>
+        <div class="img-txt-container">
+          <img class="about-me" src="img/developer.svg" />
+          <div class="txt-container">
+            <h1>Who am I...</h1>
+            <h5>Versatile Mobile App Developer and Frontend Enthusiast</h5>
+            <br />
+            <p class="my-content">
+              Hi there! I'am Sriramakrishnan, I'm a student and mobile app
+              developer who's passionate about using Jetpack Compose and Kotlin
+              to craft seamless user experiences. With a strong frontend
+              background in HTML, CSS, and JavaScript, I excel at creating
+              visually appealing and interactive interfaces. My journey is
+              fueled by a love for learning and a drive to stay updated with the
+              latest technologies. From dynamic mobile apps to captivating web
+              designs, I'm dedicated to pushing the boundaries of user-centric
+              development.
+            </p>
+            <br />
+            <div class="img-container">
+              <img
+                src="/img/android-48.svg"
+                width="70px"
+                height="70px"
+                alt="android-icon"
+              />
+              <img
+                src="/img/android-studio-48.svg"
+                width="70px"
+                height="70px"
+                alt="android-studio"
+              />
+              <img
+                src="/img/icons8-kotlin.svg"
+                width="70px"
+                height="70px"
+                alt="android-icon"
+              />
+              <img
+                src="/img/jetpack-compose.svg"
+                width="70px"
+                height="70px"
+                alt="android-icon"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of About Section -->
+
+      <!-- Skills Section -->
+      <div class="container-fluid skills" id="skills">
+        <div class="line">
+          <hr width="50%" />
+          <p>Skills</p>
+          <hr width="50%" />
+        </div>
+        <div class="all-skills">
+          <!--Skill Container 1-->
+          <div class="skill-container">
+            <div class="title">
+              <img src="/img/c-programming.svg" alt="android" />
+              <img src="/img/c++.svg" alt="" />
+              <h3>C/C++ Programming</h3>
+            </div>
+            <div class="progress">
+              <div
+                class="progress-bar-striped bg-success"
+                style="width: 75%"
+                role="progressbar"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+
+          <div class="skill-container" id="skills">
+            <div class="title">
+              <img src="/img/algorithm.svg" alt="android" />
+              <h3>Data Structure and Algorithms</h3>
+            </div>
+            <div class="progress">
+              <div
+                class="progress-bar-striped bg-success"
+                style="width: 70%"
+                role="progressbar"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+
+          <!--Skill Container-->
+          <div class="skill-container" id="skills">
+            <div class="title">
+              <img src="/img/icons8-java.svg" alt="java" />
+              <h3>Java Programming</h3>
+            </div>
+            <div class="progress">
+              <div
+                class="progress-bar-striped bg-success"
+                style="width: 85%"
+                role="progressbar"
+                aria-valuenow="85"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+
+          <!--Skill Container-->
+          <div class="skill-container" id="skills">
+            <div class="title">
+              <img src="/img/sql.png" alt="sql" />
+              <h3>SQL</h3>
+            </div>
+            <div class="progress">
+              <div
+                class="progress-bar-striped bg-success"
+                style="width: 50%"
+                role="progressbar"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+
+          <!--Skill Container-->
+          <div class="skill-container" id="skills">
+            <div class="title">
+              <img src="/img/icons8-kotlin.svg" alt="kotlin" />
+              <h3>Kotlin</h3>
+            </div>
+            <div class="progress">
+              <div
+                class="progress-bar-striped bg-success"
+                style="width: 65%"
+                role="progressbar"
+                aria-valuenow="65"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+
+          <!--Skill Container-->
+          <div class="skill-container" id="skills">
+            <div class="title">
+              <img
+                src="/img/jetpack-compose.svg"
+                width="50px"
+                height="50px"
+                alt="android"
+              />
+              <h3>Jetpack Compose</h3>
+            </div>
+            <div class="progress">
+              <div
+                class="progress-bar-striped bg-success"
+                style="width: 60%"
+                role="progressbar"
+                aria-valuenow="60"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+
+          <!--Skill Container-->
+          <div class="skill-container" id="skills">
+            <div class="title">
+              <img src="/img/html-5.svg" alt="html" />
+              <img src="/img/css.svg" alt="css" />
+              <img src="/img/bootstrap.svg" alt="android" />
+              <h3>Web Design</h3>
+            </div>
+            <div class="progress">
+              <div
+                class="progress-bar-striped bg-success"
+                style="width: 85%"
+                role="progressbar"
+                aria-valuenow="80"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+
+          <!--Skill Container-->
+          <div class="skill-container" id="skills">
+            <div class="title">
+              <img src="/img/android-48.svg" alt="android" />
+              <h3>Mobile App development</h3>
+            </div>
+            <div class="progress">
+              <div
+                class="progress-bar-striped bg-success"
+                style="width: 75%"
+                role="progressbar"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+
+          <!--Skill Container-->
+          <div class="skill-container" id="skills">
+            <div class="title">
+              <img src="/img/communication.svg" alt="communication" />
+              <h3>Communication</h3>
+            </div>
+            <div class="progress">
+              <div
+                class="progress-bar-striped bg-success"
+                style="width: 85%"
+                role="progressbar"
+                aria-valuenow="85"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+
+          <!--Skill Container-->
+          <div class="skill-container" id="skills">
+            <div class="title">
+              <img src="/img/git.svg" alt="git" />
+              <img src="/img/github.svg" alt="github" />
+              <h3>Version Control System</h3>
+            </div>
+            <div class="progress">
+              <div
+                class="progress-bar-striped bg-success"
+                style="width: 75%"
+                role="progressbar"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+
+          <!--End of all Skills-->
+        </div>
+      </div>
+      <!--End of Skills Section-->
+
+      <!--------------------Project Section---------------->
+
+      <div class="container-fluid project" id="project">
+        <div class="line">
+          <hr width="50%" />
+          <p>Projects</p>
+          <hr width="50%" />
+        </div>
+
+        <!--Carousel Cards-->
+        <!--3 Cards-->
+        <div class="cards-wrapper">
+          <div class="card">
+            <img
+              src="/asset/Icons/calculator.png"
+              class="card-img-top"
+              alt="calc"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Calculator App</h5>
+              <p class="card-text">
+                A Mobile Calculator made with Jetpack Compose and Kotlin with
+                Awesome UI User Experiance
+              </p>
+              <a
+                href="https://github.com/sriram005/Calculator-App"
+                class="btn btn-success"
+                >Github <i class="bi bi-box-arrow-up-right"></i
+              ></a>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="/asset/Icons/ui_designs.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">UI Designs</h5>
+              <p class="card-text">
+                This is my Repository in Github where the various Mobile UI
+                designs made by me are uploaded.
+              </p>
+              <a
+                href="https://github.com/sriram005/UIDesigns"
+                class="btn btn-success"
+                >Github <i class="bi bi-box-arrow-up-right"></i
+              ></a>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="/asset/Icons/web_developmet.png"
+              class="card-img-top"
+              alt="web-icon"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Web Development</h5>
+              <p class="card-text">
+                Github Repository with Some of my works in the field of Web
+                development
+              </p>
+              <a
+                href="https://github.com/sriram005/Web-Designs"
+                class="btn btn-success"
+                >Github <i class="bi bi-box-arrow-up-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="/asset/Icons/portfolio_web.png"
+              class="card-img-top"
+              alt="portfolio-web"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Portfolio Webpage</h5>
+              <p class="card-text">
+                Portfolio Webpage where my skills, Projects and Personal
+                Informations are Shared
+              </p>
+              <a href="https://mofosoft.tk" class="btn btn-success"
+                >Visit <i class="bi bi-box-arrow-up-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="/asset/Icons/hotel-booking.png"
+              class="card-img-top"
+              alt="hotel-booking"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Hotel Booking System</h5>
+              <p class="card-text">
+                This is an console based project to book rooms in a different
+                hotels listed.
+              </p>
+              <a
+                href="https://github.com/sriram005/Hotel-Booking-System"
+                class="btn btn-success"
+                >Github <i class="bi bi-box-arrow-up-right"></i
+              ></a>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="/asset/Icons/browser.jpg"
+              class="card-img-top"
+              alt="browser"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Mofo Browser</h5>
+              <p class="card-text">
+                An Mobile Application (Browser) made with XML and Java for safe
+                and secure search.
+              </p>
+              <a href="/asset/Mofo Browser_V1.2.apk" class="btn btn-success"
+                >Downlaod <i class="bi bi-download"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!--3 Cards-->
+      </div>
+
+      <!----------------Projects Completd---------------->
+
+      <!----------Contact Page-->
+      <div class="container-fluid contact" id="contact">
+        <div class="container contact-form">
+          <div class="img-container-contact">
+            <img src="img/mail-img.png" alt="" />
+          </div>
+          <div class="form-container">
+            <h2>Get in Touch</h2>
+
+            <iframe name="iframe_hidden" style="display: none"></iframe>
+            <form
+              action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfWT5rI5dWmv4lSXLGoue_A8UuSv20_3xtd_stDMaCJOEL_sg/formResponse"
+              method="post"
+              target="iframe_hidden"
+              id="form"
+              onsubmit="SubmitStatus()"
+            >
+              <div class="form-floating mb-3">
+                <input
+                  type="text"
+                  class="form-control form-data"
+                  id="InputName"
+                  placeholder="Name"
+                  name="entry.429050700"
+                />
+                <label for="floatingInput">Name</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input
+                  type="email"
+                  class="form-control form-data"
+                  id="InputEmail"
+                  placeholder="name@example.com"
+                  name="entry.1434007431"
+                />
+                <label for="floatingInput">Email address</label>
+              </div>
+
+              <div class="form-floating" id="message">
+                <textarea
+                  class="form-control form-data"
+                  placeholder="Leave a comment here"
+                  id="floatingTextarea"
+                  name="entry.591210718"
+                  style="height: 150px"
+                ></textarea>
+                <label for="floatingTextarea2">Message</label>
+              </div>
+              <button type="submit" class="btn btn-success btn-submit">
+                Send <i class="bi bi-forward-fill"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!--End of Contact Page-->
+
+      <!----------Footer----------->
+
+      <!-- Footer -->
+      <footer class="text-center text-lg-start bg-white text-muted">
+        <!-- Section: Social media -->
+        <section
+          class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+        >
+          <!-- Left -->
+          <div class="me-5 d-none d-lg-block">
+            <span>Get connected with me on social networks:</span>
+          </div>
+          <!-- Left -->
+
+          <!-- Right -->
+          <a class="icons-footer">
+            <a
+              href="https://www.facebook.com/sriramakrishnan.sriramakrishnan.16/"
+              style="color: black"
+              ><i class="bi bi-facebook"></i
+            ></a>
+            <a href="https://twitter.com/sriram_srk_" style="color: black"
+              ><i class="bi bi-twitter-x"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/sriram_srk_/"
+              style="color: black"
+              ><i class="bi bi-instagram"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/sriramakrishnan-s/"
+              style="color: black"
+              ><i class="bi bi-linkedin"></i
+            ></a>
+            <a href="https://github.com/sriram005" style="color: black"
+              ><i class="bi bi-github"></i
+            ></a>
+          </a>
+          <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fas fa-gem me-3 text-secondary"></i>About Me
+                </h6>
+                <p>
+                  Motivated and Enthusiastic person developing Skills in
+                  Computer Programming and Mobile App development as a Student
+                  and a Developer.
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
+                <p>
+                  <a href="#home" class="text-reset">Home</a>
+                </p>
+                <p>
+                  <a href="#about" class="text-reset">About</a>
+                </p>
+                <p>
+                  <a href="#skills" class="text-reset">Skills</a>
+                </p>
+                <p>
+                  <a href="#project" class="text-reset">Project</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                <p>
+                  <i class="bi bi-house me-3 text-secondary"></i>Tamil Nadu,
+                  India
+                </p>
+                <p>
+                  <i class="bi bi-envelope me-3 text-secondary"></i>
+                  sriramakrishnan005@gmail.com
+                </p>
+                <p>
+                  <i class="bi bi-telephone me-3 text-secondary"></i> +91
+                  9488576215
+                </p>
+                <p>
+                  <i class="bi bi-telephone me-3 text-secondary"></i> +91
+                  9159211057
+                </p>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div
+          class="text-center p-4"
+          style="background-color: rgba(0, 0, 0, 0.025)"
+        >
+          © 2021 Copyright:
+          <a class="text-reset fw-bold" href="#">Sriram</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+
+      <!----------End of Footer----------->
+    </div>
+
+    <script src="/js/bootstrap.min.js"></script>
+    <script>
+      function SubmitStatus() {
+        alert("Successfull");
+      }
+    </script>
+  </body>
+</html>
