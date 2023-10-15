@@ -8,8 +8,9 @@ a{
 }
 
 .home {
-    background: url(/img/bg-img.jpg);
+    background-image: url(../img/bg-img.jpeg);
     background-size: cover;
+    background-repeat: no-repeat;
     height: 100vh;
     background-color: white;
     display: flex;
@@ -99,7 +100,7 @@ i {
 .all-skills {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .title {
@@ -253,6 +254,8 @@ form {
     .all-skills {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .skills {
@@ -265,7 +268,7 @@ form {
     }
 
     .skill-container {
-        width: 100%;
+        width: 95%;
         height: auto;
         background-color: #fff;
         color: black;
@@ -300,10 +303,16 @@ form {
     }
 
     .contact-form {
+        margin: 10px;
+        height: auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .contact-form h2{
+        margin-top: 50px;
     }
 
     .img-container-contact {
@@ -320,4 +329,11 @@ form {
     .form-container {
         width: 100%;
     }
+
+    .icons-footer{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
 }
